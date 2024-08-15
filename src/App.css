@@ -12,6 +12,9 @@ h3{
     margin: 0;
     border-style: none;
 }
+h1{
+    -webkit-text-stroke: 1px blueviolet;
+}
 .img-item{
     min-height: 20vh;
     max-height: 20vh;
@@ -109,14 +112,13 @@ button{
         margin: 5px;
     }
     h1{
-        font-size: 30px;
+        font-size: 25px;
+        font-weight: bolder;
         margin: 0;
+        -webkit-text-stroke: 1px blueviolet;
     }
     h3{
-        font-size: 20px;
+        font-size: 18px;
     }
 
-
-
-    
 }

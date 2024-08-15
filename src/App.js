@@ -56,7 +56,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <div className="main">
+        <div className="main container">
           <BoxClass title="You" item={this.state.userSelect} result={this.state.result} />
           <div className="main2">
             <button type="button" className="btn btn-warning size" onClick={() => this.play("scissors")}>가위</button>
